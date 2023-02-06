@@ -1,0 +1,36 @@
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+}
+
+.text {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+button {
+    color: black;
+    font-size: 13px;
+    margin-bottom: 60px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 60px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+img {
+    height: 380px;
+    width: auto;
+}
