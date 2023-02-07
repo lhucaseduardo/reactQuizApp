@@ -1,11 +1,13 @@
 import imgQuiz from "../img/quiz.svg"
 import logoReact from "../img/react.svg"
+import logo from "../img/logo.svg"
 import "../styles/Welcome.css"
 import "../global/effects/scaleUpCenter.css"
 
 const Welcome = () => {
     return (
         <div id="welcome">
+            <img className="logo" src={logo} alt="" />
             <h1><span className="welcomeTitleReact">React</span>Quiz</h1>
             <div className="square">
                 <h2>Seja bem-vindo</h2>
