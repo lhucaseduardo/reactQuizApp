@@ -6,7 +6,6 @@ function App() {
 
   return (
     <div id="app">
-      <h1>Quiz sobre React</h1>
       <Welcome/>
     </div>
   )
