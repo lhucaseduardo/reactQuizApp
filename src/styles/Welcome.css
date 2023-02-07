@@ -24,6 +24,7 @@ h1 {
     color: black;
     text-align: center;
     font-weight: 700;
+    text-shadow: 1px 1px black;
     /* color: rgba(255, 0, 0, 0.57); */
     /* text-shadow: 2px 2px black; */
 }

@@ -6,7 +6,7 @@ import "../global/effects/scaleUpCenter.css"
 const Welcome = () => {
     return (
         <div id="welcome">
-            <h1>Quiz sobre <span className="welcomeTitleReact">React</span></h1>
+            <h1><span className="welcomeTitleReact">React</span>Quiz</h1>
             <div className="square">
                 <h2>Seja bem-vindo</h2>
                 <p className="text">Clique no botão abaixo para começar:</p>
