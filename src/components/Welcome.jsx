@@ -1,6 +1,7 @@
 import imgQuiz from "../img/quiz.svg"
 import logoReact from "../img/react.svg"
 import logo from "../img/logo.svg"
+// import favicon from "../img/favicon.svg"
 import "../styles/Welcome.css"
 import "../global/effects/scaleUpCenter.css"
 
