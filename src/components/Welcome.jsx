@@ -1,11 +1,16 @@
 import imgQuiz from "../img/quiz.svg"
 import logoReact from "../img/react.svg"
 import logo from "../img/logo.svg"
-// import favicon from "../img/favicon.svg"
 import "../styles/Welcome.css"
 import "../global/effects/scaleUpCenter.css"
 
+import { useContext } from "react"
+import { QuizContext } from "../context/quiz"
+
 const Welcome = () => {
+    const [quizState, dispatch] = useContext(QuizContext)
+    console.log(quizState)
+
     return (
         <div id="welcome">
             <img className="logo" src={logo} alt="" />
